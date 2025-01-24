@@ -14,6 +14,9 @@
 		184EC58E2D43980E00C74A47 /* CiticonnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC58D2D43980E00C74A47 /* CiticonnectTests.swift */; };
 		184EC5982D43980E00C74A47 /* CiticonnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC5972D43980E00C74A47 /* CiticonnectUITests.swift */; };
 		184EC59A2D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC5992D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift */; };
+		184EC5AD2D43995300C74A47 /* au_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 184EC5AC2D43995300C74A47 /* au_cities.json */; };
+		184EC5AF2D439BCD00C74A47 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC5AE2D439BCD00C74A47 /* City.swift */; };
+		184EC5B12D439C3800C74A47 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC5B02D439C3800C74A47 /* CityViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		184EC5932D43980E00C74A47 /* CiticonnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiticonnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184EC5972D43980E00C74A47 /* CiticonnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiticonnectUITests.swift; sourceTree = "<group>"; };
 		184EC5992D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiticonnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		184EC5AC2D43995300C74A47 /* au_cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = au_cities.json; sourceTree = "<group>"; };
+		184EC5AE2D439BCD00C74A47 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		184EC5B02D439C3800C74A47 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,12 @@
 		184EC57B2D43980C00C74A47 /* Citiconnect */ = {
 			isa = PBXGroup;
 			children = (
+				184EC5AB2D43991F00C74A47 /* Resources */,
+				184EC5AA2D43991300C74A47 /* Tests */,
+				184EC5A92D43990600C74A47 /* Services */,
+				184EC5A82D4398EC00C74A47 /* ViewModels */,
+				184EC5A72D4398D000C74A47 /* Views */,
+				184EC5A62D4398AF00C74A47 /* Models */,
 				184EC57C2D43980C00C74A47 /* CiticonnectApp.swift */,
 				184EC57E2D43980C00C74A47 /* ContentView.swift */,
 				184EC5802D43980E00C74A47 /* Assets.xcassets */,
@@ -125,6 +137,51 @@
 				184EC5992D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift */,
 			);
 			path = CiticonnectUITests;
+			sourceTree = "<group>";
+		};
+		184EC5A62D4398AF00C74A47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				184EC5AE2D439BCD00C74A47 /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		184EC5A72D4398D000C74A47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		184EC5A82D4398EC00C74A47 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				184EC5B02D439C3800C74A47 /* CityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		184EC5A92D43990600C74A47 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		184EC5AA2D43991300C74A47 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		184EC5AB2D43991F00C74A47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				184EC5AC2D43995300C74A47 /* au_cities.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184EC5AD2D43995300C74A47 /* au_cities.json in Resources */,
 				184EC5842D43980E00C74A47 /* Preview Assets.xcassets in Resources */,
 				184EC5812D43980E00C74A47 /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				184EC57F2D43980C00C74A47 /* ContentView.swift in Sources */,
+				184EC5AF2D439BCD00C74A47 /* City.swift in Sources */,
 				184EC57D2D43980C00C74A47 /* CiticonnectApp.swift in Sources */,
+				184EC5B12D439C3800C74A47 /* CityViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +523,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
