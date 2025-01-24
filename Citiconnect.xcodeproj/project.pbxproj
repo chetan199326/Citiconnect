@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184EC57D2D43980C00C74A47 /* CiticonnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC57C2D43980C00C74A47 /* CiticonnectApp.swift */; };
+		184EC57F2D43980C00C74A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC57E2D43980C00C74A47 /* ContentView.swift */; };
+		184EC5812D43980E00C74A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184EC5802D43980E00C74A47 /* Assets.xcassets */; };
+		184EC5842D43980E00C74A47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184EC5832D43980E00C74A47 /* Preview Assets.xcassets */; };
+		184EC58E2D43980E00C74A47 /* CiticonnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC58D2D43980E00C74A47 /* CiticonnectTests.swift */; };
+		184EC5982D43980E00C74A47 /* CiticonnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC5972D43980E00C74A47 /* CiticonnectUITests.swift */; };
+		184EC59A2D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EC5992D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184EC58A2D43980E00C74A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184EC5712D43980C00C74A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184EC5782D43980C00C74A47;
+			remoteInfo = Citiconnect;
+		};
+		184EC5942D43980E00C74A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184EC5712D43980C00C74A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184EC5782D43980C00C74A47;
+			remoteInfo = Citiconnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184EC5792D43980C00C74A47 /* Citiconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citiconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184EC57C2D43980C00C74A47 /* CiticonnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiticonnectApp.swift; sourceTree = "<group>"; };
+		184EC57E2D43980C00C74A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		184EC5802D43980E00C74A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184EC5832D43980E00C74A47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		184EC5892D43980E00C74A47 /* CiticonnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiticonnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184EC58D2D43980E00C74A47 /* CiticonnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiticonnectTests.swift; sourceTree = "<group>"; };
+		184EC5932D43980E00C74A47 /* CiticonnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiticonnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184EC5972D43980E00C74A47 /* CiticonnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiticonnectUITests.swift; sourceTree = "<group>"; };
+		184EC5992D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiticonnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184EC5762D43980C00C74A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184EC5862D43980E00C74A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184EC5902D43980E00C74A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184EC5702D43980C00C74A47 = {
+			isa = PBXGroup;
+			children = (
+				184EC57B2D43980C00C74A47 /* Citiconnect */,
+				184EC58C2D43980E00C74A47 /* CiticonnectTests */,
+				184EC5962D43980E00C74A47 /* CiticonnectUITests */,
+				184EC57A2D43980C00C74A47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184EC57A2D43980C00C74A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184EC5792D43980C00C74A47 /* Citiconnect.app */,
+				184EC5892D43980E00C74A47 /* CiticonnectTests.xctest */,
+				184EC5932D43980E00C74A47 /* CiticonnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184EC57B2D43980C00C74A47 /* Citiconnect */ = {
+			isa = PBXGroup;
+			children = (
+				184EC57C2D43980C00C74A47 /* CiticonnectApp.swift */,
+				184EC57E2D43980C00C74A47 /* ContentView.swift */,
+				184EC5802D43980E00C74A47 /* Assets.xcassets */,
+				184EC5822D43980E00C74A47 /* Preview Content */,
+			);
+			path = Citiconnect;
+			sourceTree = "<group>";
+		};
+		184EC5822D43980E00C74A47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				184EC5832D43980E00C74A47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184EC58C2D43980E00C74A47 /* CiticonnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				184EC58D2D43980E00C74A47 /* CiticonnectTests.swift */,
+			);
+			path = CiticonnectTests;
+			sourceTree = "<group>";
+		};
+		184EC5962D43980E00C74A47 /* CiticonnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184EC5972D43980E00C74A47 /* CiticonnectUITests.swift */,
+				184EC5992D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift */,
+			);
+			path = CiticonnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184EC5782D43980C00C74A47 /* Citiconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184EC59D2D43980E00C74A47 /* Build configuration list for PBXNativeTarget "Citiconnect" */;
+			buildPhases = (
+				184EC5752D43980C00C74A47 /* Sources */,
+				184EC5762D43980C00C74A47 /* Frameworks */,
+				184EC5772D43980C00C74A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Citiconnect;
+			productName = Citiconnect;
+			productReference = 184EC5792D43980C00C74A47 /* Citiconnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184EC5882D43980E00C74A47 /* CiticonnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184EC5A02D43980E00C74A47 /* Build configuration list for PBXNativeTarget "CiticonnectTests" */;
+			buildPhases = (
+				184EC5852D43980E00C74A47 /* Sources */,
+				184EC5862D43980E00C74A47 /* Frameworks */,
+				184EC5872D43980E00C74A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184EC58B2D43980E00C74A47 /* PBXTargetDependency */,
+			);
+			name = CiticonnectTests;
+			productName = CiticonnectTests;
+			productReference = 184EC5892D43980E00C74A47 /* CiticonnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184EC5922D43980E00C74A47 /* CiticonnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184EC5A32D43980E00C74A47 /* Build configuration list for PBXNativeTarget "CiticonnectUITests" */;
+			buildPhases = (
+				184EC58F2D43980E00C74A47 /* Sources */,
+				184EC5902D43980E00C74A47 /* Frameworks */,
+				184EC5912D43980E00C74A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184EC5952D43980E00C74A47 /* PBXTargetDependency */,
+			);
+			name = CiticonnectUITests;
+			productName = CiticonnectUITests;
+			productReference = 184EC5932D43980E00C74A47 /* CiticonnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184EC5712D43980C00C74A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					184EC5782D43980C00C74A47 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					184EC5882D43980E00C74A47 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 184EC5782D43980C00C74A47;
+					};
+					184EC5922D43980E00C74A47 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 184EC5782D43980C00C74A47;
+					};
+				};
+			};
+			buildConfigurationList = 184EC5742D43980C00C74A47 /* Build configuration list for PBXProject "Citiconnect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184EC5702D43980C00C74A47;
+			productRefGroup = 184EC57A2D43980C00C74A47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184EC5782D43980C00C74A47 /* Citiconnect */,
+				184EC5882D43980E00C74A47 /* CiticonnectTests */,
+				184EC5922D43980E00C74A47 /* CiticonnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184EC5772D43980C00C74A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184EC5842D43980E00C74A47 /* Preview Assets.xcassets in Resources */,
+				184EC5812D43980E00C74A47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184EC5872D43980E00C74A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184EC5912D43980E00C74A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184EC5752D43980C00C74A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184EC57F2D43980C00C74A47 /* ContentView.swift in Sources */,
+				184EC57D2D43980C00C74A47 /* CiticonnectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184EC5852D43980E00C74A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184EC58E2D43980E00C74A47 /* CiticonnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184EC58F2D43980E00C74A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184EC59A2D43980E00C74A47 /* CiticonnectUITestsLaunchTests.swift in Sources */,
+				184EC5982D43980E00C74A47 /* CiticonnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184EC58B2D43980E00C74A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184EC5782D43980C00C74A47 /* Citiconnect */;
+			targetProxy = 184EC58A2D43980E00C74A47 /* PBXContainerItemProxy */;
+		};
+		184EC5952D43980E00C74A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184EC5782D43980C00C74A47 /* Citiconnect */;
+			targetProxy = 184EC5942D43980E00C74A47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		184EC59B2D43980E00C74A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184EC59C2D43980E00C74A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184EC59E2D43980E00C74A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Citiconnect/Preview Content\"";
+				DEVELOPMENT_TEAM = R222TX9BR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.Citiconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184EC59F2D43980E00C74A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Citiconnect/Preview Content\"";
+				DEVELOPMENT_TEAM = R222TX9BR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.Citiconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184EC5A12D43980E00C74A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R222TX9BR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.CiticonnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citiconnect.app/Citiconnect";
+			};
+			name = Debug;
+		};
+		184EC5A22D43980E00C74A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R222TX9BR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.CiticonnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Citiconnect.app/Citiconnect";
+			};
+			name = Release;
+		};
+		184EC5A42D43980E00C74A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R222TX9BR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.CiticonnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Citiconnect;
+			};
+			name = Debug;
+		};
+		184EC5A52D43980E00C74A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R222TX9BR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.CiticonnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Citiconnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184EC5742D43980C00C74A47 /* Build configuration list for PBXProject "Citiconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184EC59B2D43980E00C74A47 /* Debug */,
+				184EC59C2D43980E00C74A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184EC59D2D43980E00C74A47 /* Build configuration list for PBXNativeTarget "Citiconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184EC59E2D43980E00C74A47 /* Debug */,
+				184EC59F2D43980E00C74A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184EC5A02D43980E00C74A47 /* Build configuration list for PBXNativeTarget "CiticonnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184EC5A12D43980E00C74A47 /* Debug */,
+				184EC5A22D43980E00C74A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184EC5A32D43980E00C74A47 /* Build configuration list for PBXNativeTarget "CiticonnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184EC5A42D43980E00C74A47 /* Debug */,
+				184EC5A52D43980E00C74A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184EC5712D43980C00C74A47 /* Project object */;
+}
